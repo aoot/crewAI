@@ -184,7 +184,7 @@ from unstructured.partition.html import partition_html
 def integration_tool(argument: str) -> str:
     """Integration with a given API"""
     # Code here
-    return resutls # string to be sent back to the agent
+    return results # string to be sent back to the agent
 
 # Assign the scraping tool to an agent
 agent = Agent(
