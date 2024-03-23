@@ -179,7 +179,7 @@ from crewai import Agent
 from crewai.tools import tool
 from unstructured.partition.html import partition_html
 
-    # Annotate the function with the tool decorator from crewAI
+# Annotate the function with the tool decorator from crewAI
 @tool("Integration with a given API")
 def integration_tool(argument: str) -> str:
     """Integration with a given API"""
